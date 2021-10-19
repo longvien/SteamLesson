@@ -1,5 +1,16 @@
-day = input("What's the date today? Ex: 2010")
-if int(day) < 2010:
-    print("Happy 20/10")
+import datetime as dt
+
+date = input("What's the date today? Ex: 2021-10-19 ")
+date_obj = dt.datetime.strptime(date,'%Y-%m-%d')
+date_obj = date_obj.strftime('%Y-%m-%d')
+print("input date: " + date_obj)
+
+date_today = dt.date.today().strftime('%Y-%m-%d')
+print("today: " + date_today)
+
+if date_obj == date_today:
+    print("Input date is today date.")
+    if date_today == '2021-10-20':
+        print("Happy 20/10!")
 else:
-    print("Sorry, Today is not 20/10")
+    print("Sorry, input date is not today date.")
