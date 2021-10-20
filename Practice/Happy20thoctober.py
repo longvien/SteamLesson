@@ -1,6 +1,6 @@
 import datetime as dt
 
-date = input("What's the date today? Ex: 2021-10-19 ")
+date = input("What's the date today? Ex: 2021-10-20 ")
 date_obj = dt.datetime.strptime(date,'%Y-%m-%d')
 date_obj = date_obj.strftime('%Y-%m-%d')
 print("input date: " + date_obj)
