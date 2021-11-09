@@ -5,4 +5,4 @@ numbers = array.split()
 min_number = sys.maxsize
 for number in numbers:
     min_number = min(min_number,int(number))
-print("min_number is: " + str(min_number))
+print("min number is: " + str(min_number))
