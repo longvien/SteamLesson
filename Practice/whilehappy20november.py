@@ -1,4 +1,4 @@
 counter = 0
 while counter < 100:
-    print("Happy 20/11")
+    print("Happy Teachers Day")
     counter = counter + 1
