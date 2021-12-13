@@ -11,8 +11,8 @@ window.title("Happy Holidays")
  
 snowball_rate = 1, 3 
 snowball_size = 5, 15 
-wind_change = 1, 5 
-max_wind = 3
+wind_change = 1, 6 
+max_wind = 5
 
 def make_circle(turtle_name, x, y, size, colour): 
     turtle_name.color(colour) 
