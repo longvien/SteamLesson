@@ -40,7 +40,7 @@ BG_COLOR = "#0080ff"
 
 oogway = Turtle()
 
-oogway.speed(2)
+oogway.speed(10)
 screen = oogway.getscreen()
 
 screen.bgcolor(BG_COLOR)
@@ -78,9 +78,7 @@ tree_height = y + 40
 
 
 create_circle(oogway, 230, 180, 60, "white")
-
-create_circle(oogway, 220, 180, 60, BG_COLOR)
-
+#create_circle(oogway, 220, 180, 60, BG_COLOR)
 
 oogway.speed(10)
 number_of_stars = randint(990,1000)
