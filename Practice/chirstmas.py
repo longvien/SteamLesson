@@ -36,7 +36,7 @@ def create_circle(turtle, x, y, radius, color):
     oogway.end_fill()
 
 
-BG_COLOR = "#0080ff"
+BG_COLOR = "black"
 
 oogway = Turtle()
 
