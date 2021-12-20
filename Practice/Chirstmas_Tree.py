@@ -62,7 +62,7 @@ def move_snow(snow):
 
 def snow_fall():
     rand_make_snow = random.randint(0, rate_of_snow_balls)
-    if rand_make_snow == 3:
+    if rand_make_snow == 5:
         snow = turtle.Turtle()
         snow.hideturtle()
         snow.penup()
