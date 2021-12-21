@@ -37,7 +37,7 @@ def make_triangle(x, y, size, outline, triangle):
     if outline:
         triangle.pendown()
     if not outline:
-        triangle.fillcolor("forest green")
+        triangle.fillcolor("green")
         triangle.begin_fill()
     triangle.setposition(x + size, y - size)
     triangle.setposition(x - size, y - size)
@@ -114,7 +114,7 @@ stem.setposition(-width / 30, -3 * width / 8)
 stem.setposition(-width / 30, -width / 4.8)
 stem.end_fill()
 
-screen.bgcolor("sky blue")
+screen.bgcolor("blue")
 
 # decorations: balls
 screen.tracer(2)
