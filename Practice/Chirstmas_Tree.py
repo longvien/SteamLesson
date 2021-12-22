@@ -114,7 +114,7 @@ stem.setposition(-width / 30, -3 * width / 8)
 stem.setposition(-width / 30, -width / 4.8)
 stem.end_fill()
 
-screen.bgcolor("blue")
+screen.bgcolor("black")
 
 # decorations: balls
 screen.tracer(2)
