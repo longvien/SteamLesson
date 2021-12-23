@@ -118,7 +118,7 @@ screen.bgcolor("black")
 
 # decorations: balls
 screen.tracer(2)
-ball_colours = ["red", "red", "red", "gold", "violet", "white"]
+ball_colours = ["red", "red", "red", "gold", "purple", "yellow"]
 ball_positions = [(-width / 30, width / 4), (3 * width / 40, width / 5),
                   (-width / 20, width / 6), (width / 30, width / 9),
                   (-width / 12, width / 30), (width / 12, width / 24),
