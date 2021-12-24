@@ -15,7 +15,7 @@ else:
     snow_size = 7
     snow_speed = 2
     draw_speed = 10
-    rate_of_snow_balls = 2
+    rate_of_snow_balls = 5
 
 width = 600 / i_scale
 height = 600 / i_scale
