@@ -27,6 +27,6 @@ tree_maker.end_fill()
 tree_maker.hideturtle()
 tree_maker.goto(0, -200)
 tree_maker.color("yellow")
-tree_maker.write("Have a nice chirstmas!", True, align="center", font=("Arial", 42, "normal"))
+tree_maker.write("Happy Chirstmas and Happy New Year!", True, align="center", font=("Arial", 20, "normal"))
 
 window.mainloop()
