@@ -81,7 +81,7 @@ create_circle(oogway, 230, 180, 60, "white")
 #create_circle(oogway, 220, 180, 60, BG_COLOR)
 
 oogway.speed(10)
-number_of_stars = randint(9,10)
+number_of_stars = randint(90,100)
 
 for _ in range(0,number_of_stars):
     x_star = randint(-(screen.window_width()//2),screen.window_width()//2)
