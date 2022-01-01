@@ -78,7 +78,7 @@ tree_height = y + 40
 
 
 create_circle(oogway, 230, 180, 60, "yellow")
-#create_circle(oogway, 220, 180, 60, BG_COLOR)
+create_circle(oogway, 220, 180, 60, BG_COLOR)
 
 oogway.speed(10)
 number_of_stars = randint(90,100)
