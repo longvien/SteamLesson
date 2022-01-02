@@ -51,7 +51,7 @@ screen.setup(width=1.0, height=1.0)
 
 y = -100
 
-create_rectangle(oogway, "brown", -15, y-60, 30, 60)
+create_rectangle(oogway, "white", -15, y-60, 30, 60)
 
 
 width = 240
