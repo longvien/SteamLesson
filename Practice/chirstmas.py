@@ -74,7 +74,7 @@ for i in range(5):
     oogway.right(144)
 oogway.end_fill()
 
-tree_height = y + 40
+tree_height = y + 60
 
 
 create_circle(oogway, 230, 180, 60, "yellow")
