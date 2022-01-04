@@ -60,7 +60,7 @@ while width > 10:
     width = width - 10
     height = 10
     x = 0 - width/2
-    create_rectangle(oogway, "green", x, y, width, height)
+    create_rectangle(oogway, "purple", x, y, width, height)
     y = y + height
 
 oogway.speed(1)
