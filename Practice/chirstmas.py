@@ -13,7 +13,7 @@ def create_rectangle(turtle, color, x, y, width, height):
     turtle.forward(width)
     turtle.left(92)
     turtle.forward(height)
-    turtle.left(91)
+    turtle.left(92)
     turtle.forward(width)
     turtle.left(91)
     turtle.forward(height)
@@ -51,7 +51,7 @@ screen.setup(width=1.0, height=1.0)
 
 y = -100
 
-create_rectangle(oogway, "white", -15, y-60, 30, 60)
+create_rectangle(oogway, "brown", -15, y-60, 30, 60)
 
 
 width = 240
@@ -60,7 +60,7 @@ while width > 10:
     width = width - 10
     height = 10
     x = 0 - width/2
-    create_rectangle(oogway, "purple", x, y, width, height)
+    create_rectangle(oogway, "forest green", x, y, width, height)
     y = y + height
 
 oogway.speed(1)
