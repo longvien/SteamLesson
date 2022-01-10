@@ -15,7 +15,7 @@ def create_rectangle(turtle, color, x, y, width, height):
     turtle.forward(height)
     turtle.left(92)
     turtle.forward(width)
-    turtle.left(91)
+    turtle.left(92)
     turtle.forward(height)
     turtle.left(91)
 
