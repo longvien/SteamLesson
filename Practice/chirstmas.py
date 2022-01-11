@@ -11,13 +11,13 @@ def create_rectangle(turtle, color, x, y, width, height):
     turtle.begin_fill()
 
     turtle.forward(width)
-    turtle.left(92)
+    turtle.left(90)
     turtle.forward(height)
-    turtle.left(92)
+    turtle.left(90)
     turtle.forward(width)
-    turtle.left(92)
+    turtle.left(90)
     turtle.forward(height)
-    turtle.left(91)
+    turtle.left(90)
 
     
     turtle.end_fill()
@@ -88,7 +88,7 @@ for _ in range(0,number_of_stars):
     y_star = randint(tree_height, screen.window_height()//2)
     size = randint(5,20)
     oogway.penup()
-    oogway.color('white')
+    oogway.color('yellow')
     oogway.goto(x_star, y_star)
     oogway.begin_fill()
     oogway.pendown()
