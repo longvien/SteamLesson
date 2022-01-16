@@ -124,7 +124,7 @@ mitul.left(30)
 mitul.penup()
 mitul.home()
 
-mitul.color("orange")
+mitul.color("pink")
 new.bgcolor("forest green")
 # setting second row
 
