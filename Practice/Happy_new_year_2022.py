@@ -1,7 +1,7 @@
 import turtle
 turtle.setup(1000, 1000, 0, 0)
 t = turtle.Turtle()
-t.width(12)
+t.width(14)
 t.color("maroon")
 s = turtle.getscreen()
 t.speed(2)
