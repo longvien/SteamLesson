@@ -4,7 +4,7 @@ t = turtle.Turtle()
 t.width(14)
 t.color("maroon")
 s = turtle.getscreen()
-t.speed(2)
+t.speed(5)
 s.bgcolor("azure")
 #clcoding.com
 t.left(180)
