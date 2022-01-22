@@ -7,6 +7,6 @@ shape('square')
 for i in range(75):
     right(21 + i)
     forward(1 + (i * 5))
-    right(40 + i)
+    right(41 + i)
 
 done()
