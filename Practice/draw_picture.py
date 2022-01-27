@@ -6,7 +6,7 @@ drawing_area.setup(width=750, height=500)
 shape('square')
 for i in range(76):
     right(21 + i)
-    forward(4 + (i * 5))
+    forward(5 + (i * 5))
     right(41 + i)
 
 done()
