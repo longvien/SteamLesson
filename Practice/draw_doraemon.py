@@ -131,7 +131,7 @@ def face():
     my_goto(63.56,218.24)
     seth(90)
     eyes()
-    seth(180)
+    seth(181)
     penup()
     fd(60)
     pendown()
