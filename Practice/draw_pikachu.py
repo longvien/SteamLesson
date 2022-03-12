@@ -12,7 +12,7 @@ class Pikachu:
     def __init__(self):
         self.t = turtle.Turtle()
         t = self.t
-        t.pensize(8)
+        t.pensize(9)
         t.speed(12400000000000000000)
         t.ondrag(getPosition)
 
