@@ -27,7 +27,7 @@ class Pikachu:
         t.seth(0)
         t.fillcolor('#333333')
         t.begin_fill()
-        t.circle(22)
+        t.circle(21)
         t.end_fill()
 
         self.noTrace_goto(x, y + 10)
