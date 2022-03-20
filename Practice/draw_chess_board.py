@@ -10,7 +10,7 @@ def draw():
         cb.forward(30)
         cb.left(90)
 
-    cb.forward(30)
+    cb.forward(31)
 
 
 # Driver Code
