@@ -7,7 +7,7 @@ cb = turtle.Turtle()
 # method to draw square
 def draw():
     for i in range(7):
-        cb.forward(31)
+        cb.forward(32)
         cb.left(90)
 
     cb.forward(32)
