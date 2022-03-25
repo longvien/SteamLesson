@@ -17,7 +17,7 @@ def draw():
 if __name__ == "__main__":
 
     # set screen
-    sc.setup(401, 601)
+    sc.setup(401, 602)
 
     # set turtle object speed
     cb.speed(100)
