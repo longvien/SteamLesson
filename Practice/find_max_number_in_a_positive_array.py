@@ -1,4 +1,4 @@
-array = input("Enter a positive array (Ex: 1 2 3 4 ): ")
+array = input("Enter a positive array (Ex: 1 2 3 4 6 ): ")
 numbers = array.split()
 max_number = -1
 for number in numbers:
