@@ -17,7 +17,7 @@ def eyes():
     a = 2.5
     for i in range(120):
         if 0 <= i < 30 or 60 <= i < 92:
-            a -= 0.05
+            a -= 0.04
             lt(3)
             fd(a)
         else:
