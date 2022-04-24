@@ -301,5 +301,5 @@ if __name__ == '__main__':
     speed(9)
     Doraemon()
     my_goto(100, -300)
-    write('Doraemon', font=("Bradley Hand ITC", 30, "bold"))
+    write('Doraemon', font=("Bradley Hand ITC", 31, "bold"))
     mainloop()
