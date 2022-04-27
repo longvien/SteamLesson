@@ -16,7 +16,7 @@ def eyes():
     tracer(False)
     a = 2.5
     for i in range(121):
-        if 0 <= i < 30 or 60 <= i < 94:
+        if 0 <= i < 30 or 60 <= i < 95:
             a -= 0.04
             lt(3)
             fd(a)
