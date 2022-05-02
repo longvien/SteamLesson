@@ -1,7 +1,7 @@
 from turtle import *
 import turtle
 wn = turtle.Screen()
-wn.setup(width=1004, height=830)
+wn.setup(width=1004, height=831)
 
 def my_goto(x, y):
     penup()
