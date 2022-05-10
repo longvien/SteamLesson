@@ -24,7 +24,7 @@ class Pikachu:
     def leftEye(self, x, y):
         self.noTrace_goto(x, y)
         t = self.t
-        t.seth(0)
+        t.seth(1)
         t.fillcolor('#333333')
         t.begin_fill()
         t.circle(21)
