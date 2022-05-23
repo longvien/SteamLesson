@@ -1,7 +1,7 @@
 from turtle import *
 import turtle
 wn = turtle.Screen()
-wn.setup(width=1000, height=800)
+wn.setup(width=1005, height=842)
 
 def my_goto(x, y):
     penup()
@@ -15,9 +15,9 @@ def eyes():
 
     tracer(False)
     a = 2.5
-    for i in range(120):
-        if 0 <= i < 30 or 60 <= i < 90:
-            a -= 0.05
+    for i in range(121):
+        if 0 <= i < 30 or 60 <= i < 98:
+            a -= 0.04
             lt(3)
             fd(a)
         else:
@@ -301,5 +301,5 @@ if __name__ == '__main__':
     speed(9)
     Doraemon()
     my_goto(100, -300)
-    write('Doraemon', font=("Bradley Hand ITC", 30, "bold"))
+    write('Doraemon', font=("Bradley Hand ITC", 31, "bold"))
     mainloop()

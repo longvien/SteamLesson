@@ -2,7 +2,7 @@ import os
 import time
 
 #Initialise settings
-start=5
+start=15
 message=">      Happy New Year 2022!      <"
 
 #Start the countdown

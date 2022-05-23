@@ -13,7 +13,7 @@ class Pikachu:
         self.t = turtle.Turtle()
         t = self.t
         t.pensize(8)
-        t.speed(1240000000000000000)
+        t.speed(12400)
         t.ondrag(getPosition)
 
     def noTrace_goto(self, x, y):
@@ -24,7 +24,7 @@ class Pikachu:
     def leftEye(self, x, y):
         self.noTrace_goto(x, y)
         t = self.t
-        t.seth(0)
+        t.seth(1)
         t.fillcolor('#333333')
         t.begin_fill()
         t.circle(21)

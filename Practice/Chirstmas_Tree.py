@@ -6,7 +6,7 @@ web_based = True
 
 if web_based:
     i_scale = 1.5
-    snow_size = 4
+    snow_size = 5
     snow_speed = 3
     draw_speed = 10
     rate_of_snow_balls = 5
@@ -15,7 +15,7 @@ else:
     snow_size = 7
     snow_speed = 2
     draw_speed = 10
-    rate_of_snow_balls = 5
+    rate_of_snow_balls = 6
 
 width = 600 / i_scale
 height = 600 / i_scale
