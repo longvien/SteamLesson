@@ -18,7 +18,7 @@ s.home()
 s.pendown()
 
 m=20
-for i in range(200):
+for i in range(201):
     s.circle(m+i,45)
     j=random.random()
     k=random.random()
