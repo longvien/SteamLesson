@@ -7,7 +7,7 @@ wn.setup(600,602)
 s=turtle.Turtle()
 
 r=10
-for i in range(201):
+for i in range(202):
     s.circle(r+i,45)
     j=random.random()
     k=random.random()
