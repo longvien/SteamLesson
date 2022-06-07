@@ -2,7 +2,7 @@ import turtle
 import random
 
 wn=turtle.Screen()
-wn.setup(600,602)
+wn.setup(600,603)
 #wn.bgcolor(“white”)
 s=turtle.Turtle()
 
