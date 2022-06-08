@@ -8,7 +8,7 @@ s=turtle.Turtle()
 
 r=10
 for i in range(22):
-    s.circle(r+i,45)
+    s.circle(r+i,46)
     j=random.random()
     k=random.random()
     l=random.random()
